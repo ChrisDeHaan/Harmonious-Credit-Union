@@ -6,6 +6,10 @@
     --indigo-900: rgb(49 46 129)
 }
 
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
 body {
     color: var(--indigo-900);
 }
