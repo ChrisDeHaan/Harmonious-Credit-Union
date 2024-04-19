@@ -1,4 +1,4 @@
-import Button from "../../Buttons"
+import Button from "../../Buttons/Button"
 
 export default function LearnMoreContainer() {
     return (
@@ -7,7 +7,7 @@ export default function LearnMoreContainer() {
                 <div className="mx-1 p-2">
                     <h1 className="font-bold">Lorem, ipsum.</h1>
                     <h2 className="py-3 font-thin text-3xl">Lorem ipsum dolor sit.</h2>
-                    <text>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat.</text>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat.</p>
                     <div className="grid lg:grid-cols-2 pt-3 items-center">
                         <Button text="Apply Now"/>
                         <a href="" className="underline mx-auto">Learn More</a>

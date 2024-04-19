@@ -1,0 +1,5 @@
+#hollowBtn:hover {
+    background-color: rgb(238 242 255);
+    transition: 150ms;
+    border-color: rgb(79 70 229);
+}
