@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --indigo-900: rgb(49 46 129)
+}
+
+body {
+    color: var(--indigo-900);
+}
