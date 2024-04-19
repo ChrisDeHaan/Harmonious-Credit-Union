@@ -3,9 +3,10 @@ import { useState } from 'react'
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
-import LearnMoreContainer from './components/LearnMoreContainer/WithoutImage'
-import LearnMoreContainerWithImage from './components/LearnMoreContainer/WithImage'
-import ArticleContainer from './components/ArticlesContainer'
+import LearnMoreContainer from './components/Containers/LearnMore/WithoutImage'
+import LearnMoreContainerWithImage from './components/Containers/LearnMore/WithImage'
+import ArticleContainer from './components/Containers/Articles'
+import QRCodeContainer from './components/Containers/QRCode'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,8 +29,8 @@ function App() {
           <ArticleContainer text="text2"/>
           <ArticleContainer text="text3"/>
         </section>
-        <section>
-          <p>put image next to QR code to somewhere here</p>
+        <section className='mx-4 shadow-lg rounded-2xl'>
+          <QRCodeContainer />
         </section>
       </main>
       <Footer />

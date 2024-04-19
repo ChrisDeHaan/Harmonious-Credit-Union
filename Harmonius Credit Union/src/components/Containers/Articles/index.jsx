@@ -1,4 +1,4 @@
-import HollowButton from "../Buttons/HollowButton"
+import HollowButton from "../../Buttons/HollowButton"
 
 export default function ArticleContainer({ text }) {
     return (

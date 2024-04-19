@@ -1,5 +1,5 @@
-import Button from "../../Buttons/Button"
-import ManPlanting from "../../../images/man-planting.jpg"
+import Button from "../../../Buttons/Button"
+import ManPlanting from "../../../../images/man-planting.jpg"
 
 export default function LearnMoreContainerWithImage() {
     return (
