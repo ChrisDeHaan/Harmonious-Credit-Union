@@ -3,6 +3,8 @@ import { useState } from 'react'
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import LearnMoreContainer from './components/LearnMoreContainer/WithoutImage'
+import LearnMoreContainerWithImage from './components/LearnMoreContainer/WithImage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,17 +12,23 @@ function App() {
   return (
     <>
       <Header />
-      <section className="m-12 grid grid-cols-1 gap-14 items-center">
-        <p className="text-3xl font-bold underline text-center bg-indigo-100">
-          temp body
-        </p>
-        <p className="text-3xl font-bold underline text-center bg-indigo-100">
-          temp body
-        </p>
-        <p className="text-3xl font-bold underline text-center bg-indigo-100">
-          temp body
-        </p>
-      </section>
+      <main className="my-4 max-w-screen-xl mx-auto">
+        <section className='grid md:grid-cols-2 gap-5 mx-4'>
+          <div className='grid gap-5'>
+            <LearnMoreContainer />
+            <LearnMoreContainer />
+          </div>
+          <div className=''>
+            <LearnMoreContainerWithImage />
+          </div>
+        </section>
+        <section>
+          <p>put 3 boxes with outside links here</p>
+        </section>
+        <section>
+          <p>put image next to QR code to somewhere here</p>
+        </section>
+      </main>
       <Footer />
     </>
   )
